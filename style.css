@@ -1,0 +1,25 @@
+body{
+    font-family: sans-serif;
+    background-color: rgb(253, 252, 206);
+}
+
+h1{
+    text-align: center;
+    color: grey;
+    margin-bottom: 35px;
+}
+
+img{
+    width: 60%;
+    height: 20%;
+    border-radius: 20px;
+    margin-bottom: 25px;
+    margin-left: 20%;
+    position: relative;
+}
+
+img:hover{
+    top: -2px;
+    box-shadow: 3px 3px 10px 3px rgba(0,0,0,0.3);
+    transition: all .2s ease-in-out;
+}
